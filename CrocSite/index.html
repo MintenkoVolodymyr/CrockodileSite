@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crocodile</title>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="js/script.js"></script>
+      <script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+      <link rel="stylesheet" href="css/style.css">
+<script src="js/lightbox-plus-jquery.js"></script>
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+  <div class="menu">
+    <a href="#" class="menu-btn"><span></span></a>
+    <nav class="menu-list">
+      <ul>
+<li><a href="#1">Главная</a></li>
+<li><a href="#2">Новости</a></li>
+<li><a href="#3">Уход</a></li>
+<li><a href="#4">Енциклопедия</a></li>
+<li><a href="#5">Видео</a></li>
+<li><a href="#6">Галерея</a></li>
+<li><a href="#7">О нас</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="content" >
+    <section class="news" id="new">
+     <!-- <div class="two"><h1>Крокодиловая <br>ферма</h1></div>-->
+     <div class="logi"><img src="css/photo.jpg" alt="" class="login"><p>СrocСhronicles</p></div>
+      <div style="top:90%;left:-500px ;" class="parent wow fadeIn" data-wow-duration="2s" data-wow-delay="3s"><div class="dt"><a id="bt_sld" href="#contact"><div class="arrow"><span></span></div></a></div></div>
+    </section>
+    <section class="contacts" id="contact">
+  <!--   <div style="text-align: center;">
+      <div class="wow fadeInUp leftd" data-wow-offset="100" data-wow-duration="2s"> <img class="im_block2" src="css/png.png"></div>
+      </div>-->
+      <div style="height: 100%" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="3s" data-wow-offset="100"><div class="parents"><div class="dt"><a id="btwe_sld" href="#new"><div class="arrows"><span></span></div></a></div></div>
+    <div class="parent"><div class="dt"><a id="btw_sld" href="#portfolioo"><div class="arrow"><span></span></div></a></div></div></div>
+    
+ 
+    </section>   
+    <section class="portfolio" id="portfolioo">
+      <div class="parents wow fadeIn" data-wow-duration="2s" data-wow-delay="3s"><div class="dt"><a id="btwes_sld" href="#contact"><div class="arrows"><span></span></div></a></div></div>
+      <div class="bigblock">
+      <div class="Sec_block1 wow fadeInLeft" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="1s"><img src="css/photo.jpg" alt="" class="Logo_img"><div class="context">
+        <p>Купите уникальный сувенир от нашей фермы!</p>
+      </div><button class="butblock" id="Cro">Купить</button></div>
+      <div class="Sec_block2 wow fadeIn" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="1s"><img src="css/7dd4f58e64f5b4ff772bb81199f92ec5fdc61132.png" alt="" class="dolar"><img src="css/7dd4f58e64f5b4ff772bb81199f92ec5fdc61132.png" alt="" class="dolar"><img src="css/7dd4f58e64f5b4ff772bb81199f92ec5fdc61132.png" alt="" class="dolar"><div class="context">
+        <p>Вы можете помочь развитию нашего проекта!</p>
+      </div><button class="butblock">Помочь</button></div> 
+      <div class="Sec_block3 wow fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="1s"><img src="css/YouTube_23392.png" alt="" class="Logo_img"><div class="context">
+        <p>Подпишитесь на наш YouTube канал!</p>
+      </div><button class="butblock" id="you">Подписаться</button></div>
+    </div>
+    </section>
+  </div>
+</div>
+
+<script>jQuery(document).ready(function($){
+$("#bt_sld").on("click",function(event){
+event.preventDefault();
+var id=$(this).attr('href'),top=$(id).offset().top;
+$('body,html').animate({scrollTop:top},1000)});
+});</script>
+<script>jQuery(document).ready(function($){
+$("#btw_sld").on("click",function(event){
+event.preventDefault();
+var id=$(this).attr('href'),top=$(id).offset().top;
+$('body,html').animate({scrollTop:top},1000)});
+});</script>
+<script>jQuery(document).ready(function($){
+$("#btwe_sld").on("click",function(event){
+event.preventDefault();
+var id=$(this).attr('href'),top=$(id).offset().top;
+$('body,html').animate({scrollTop:top},1000)});
+});</script>
+<script>jQuery(document).ready(function($){
+$("#btwes_sld").on("click",function(event){
+event.preventDefault();
+var id=$(this).attr('href'),top=$(id).offset().top;
+$('body,html').animate({scrollTop:top},1000)});
+});</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

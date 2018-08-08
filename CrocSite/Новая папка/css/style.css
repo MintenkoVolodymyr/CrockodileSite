@@ -1,0 +1,17 @@
+@import url(reset.css);
+html,
+body {
+  font: 16px 'Roboto', sans-serif;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0.625rem 0;
+  font-size: 2rem;
+}
